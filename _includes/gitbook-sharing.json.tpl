@@ -7,7 +7,21 @@
               {% if site.github_username %}
                 "github_link": "https://github.com/BNARGroup/MEGAP",
               {% else %}
-                "github_link": "https://github.com",
+                "github_link": "https://github.com/BNARGroup/MEGAP",
+              {% endif %}
+
+                "linkedin": true,
+              {% if site.github_username %}
+                "github_link": "https://www.linkedin.com/in/seyyed-erfan-mohammadi/",
+              {% else %}
+                "github_link": "https://www.linkedin.com/in/seyyed-erfan-mohammadi/",
+              {% endif %}
+
+                "researchgate": true,
+              {% if site.github_username %}
+                "github_link": "https://www.researchgate.net/profile/Seyyed-Erfan-Mohammadi",
+              {% else %}
+                "github_link": "https://www.researchgate.net/profile/Seyyed-Erfan-Mohammadi",
               {% endif %}
 
                 "telegram": false,
