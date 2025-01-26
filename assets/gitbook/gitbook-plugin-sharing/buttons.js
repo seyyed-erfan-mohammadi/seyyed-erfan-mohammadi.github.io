@@ -1,5 +1,21 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
+        'researchgate': {
+            'label': 'ResearchGate',
+            'icon': 'fa fa-researchgate',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('https://www.researchgate.net/sharing.SharePublication.ShareNow.html?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));
+            }
+        },
+        'linkedin': {
+            'label': 'LinkedIn',
+            'icon': 'fa fa-linkedin',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('https://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));
+            }
+        },
         'facebook': {
             'label': 'Facebook',
             'icon': 'fa fa-facebook',
