@@ -1,11 +1,11 @@
             "sharing": {
-                "facebook": true,
+                "facebook": false,
 
                 "google": false,
 
                 "github": true,
               {% if site.github_username %}
-                "github_link": "https://github.com/{{ site.github_username }}",
+                "github_link": "https://github.com/BNARGroup/MEGAP",
               {% else %}
                 "github_link": "https://github.com",
               {% endif %}
@@ -15,7 +15,7 @@
 
                 "instapaper": false,
 
-                "twitter": true,
+                "twitter": false,
               {% if site.twitter_username %}
                 "twitter_link": "https://twitter.com/{{ site.twitter_username }}",
               {% endif %}
