@@ -1,15 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            MEGAP Gitbook
+longtitle:        MEGAP Gitbook
+author:           Seyyed Erfan Mohammadi
+email:            erfanmohammadi4424@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  MEG Automatic Pipeline describtion
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
+url:              'https://MEGAP.github.io'
 baseurl:          
 rss:              RSS
 
