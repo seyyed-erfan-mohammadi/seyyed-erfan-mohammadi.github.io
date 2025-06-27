@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Richard hanrick" width="100" style="border-radius: 12px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Seyyed Erfan Mohammadi" style="font-size: 23px">
+            <span class="smaller-font">Seyyed</span> <br> Erfan Mohammadi
+          </h1>
+          
+
+          <p class="title">Computational Neuroscience</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2000-04-13">March , 2000</time>
+            </div>
+
+
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="mailto:erfanmohammadi888@yahoo.com" class="social-link" title="Mail">
+              <ion-icon name="mail-outline" style="font-size: 24px;"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=vN91_VUAAAAJ&hl=en&oi=ao" class="social-link" title="Google Scholar">
+              <ion-icon name="school-outline" style="font-size: 24px;"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/yourusername" class="social-link">
+              <ion-icon name="logo-github" style="font-size: 24px;"></ion-icon>
+            </a>
+          </li>
+          
+        
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/seyyed-erfan-mohammadi/" class="social-link" title="Linkedin">
+              <ion-icon name="logo-linkedin" style="font-size: 24px;"></ion-icon>
+            </a>
+          </li>
+
+        
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+
+     
+<!-- 
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav> 
+ -->
+
+
+
+
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Erfan. I hold an MSc degree in Biomedical Engineering, specializing in Magnetoencephalography (MEG).
+             I completed my master's at Shahid Beheshti University (SBU), where I developed an automatic preprocessing pipeline (MEGAP) for MEG data. During my bachelor’s studies in Biomedical Engineering, 
+             I investigated white matter alterations in OCD using DTI images. My findings were published in Human Brain Mapping, exploring the relationship between structural brain changes and OCD subgroups.
+          </p>
+        </section>
+
+        <header>
+          <h2 class="h2 article-title">Research Interest</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My research focuses on brain activity mapping, with particular interest in developing and refining methods for MEG data preprocessing and source reconstruction.
+             A key part of my works addresses large-scale challenges in handling and analyzing extensive MEG datasets by designing automated, 
+             robust pipelines. By analyzing spatial and temporal brain dynamics, I aim to understand how these internal neural representations emerge and change during different cognitive states.
+          </p>
+        </section>
+
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+  
+        <section class="about-text">
+          <p>
+            Mohammadi, F. S., <strong style="font-weight: bold; font-size: 1.1em;">Mohammadi, S. E.</strong>, Mojarad Adi, P., Mirkarimi, S. M. A., & Shabani, H. (2024). 
+            A comparative analysis of pairwise image stitching techniques for microscopy images. 
+            <em>Scientific Reports</em> 
+            <a href="https://doi.org/10.1038/s41598-024-59626-y" target="_blank" rel="noopener noreferrer" style="color: #53cdef; text-decoration: none;">[doi]</a>
+            <a href="https://facultymembers.sbu.ac.ir/hshabani/wp-content/uploads/2025/05/s41598-024-59626-y.pdf" target="_blank" rel="noopener noreferrer" style="color: #53cdef; text-decoration: none;">[pdf]</a>
+            <a href="https://github.com/labCOI/microscopy_pairwise_register.git" target="_blank" rel="noopener noreferrer" style="color: #53cdef; text-decoration: none;">[code]</a>
+          </p>
+          <p>
+            Azarvand Damirchi, M., Karimi Moridani, M., <strong style="font-weight: bold; font-size: 1.1em;">& Mohammadi, S. E.</strong>. (2023). 
+            Relationship between white matter alterations and contamination subgroup in obsessive compulsive disorder: A diffusion tensor imaging study. 
+            <em>Human Brain Mapping</em> <a href="https://doi.org/10.1002/hbm.26594" target="_blank" rel="noopener noreferrer" style="color: #53cdef; text-decoration: none;">[doi]</a>
+            <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.26282" target="_blank" rel="noopener noreferrer" style="color: #53cdef; text-decoration: none;">[pdf]</a>
+          </p>
+        </section>
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shahid Beheshti University</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Master of Science - MS, Biomedical Engineering
+              </p>
+              
+              <p class="timeline-text">
+                Grade : 19.05 / 20
+              </p>
+
+              <p class="timeline-text">
+                <br>
+              </p>
+              <p class="timeline-text">
+                Thesis: A Comprehensive Pipeline for Automatic Pre-processing of Large-scale Magnetoencephalography Data
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Islamic Azad University</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor's degree, Biomedical Engineering
+              </p>
+
+              <p class="timeline-text">
+                Grade : 17.79 / 20
+              </p>
+
+              <p class="timeline-text">
+                <br>
+              </p>
+
+              <p class="timeline-text">
+                Thesis: Relationship between white matter alterations and contamination subgroup in obsessive compulsive disorder
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
