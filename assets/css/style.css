@@ -131,6 +131,10 @@ li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 a { display: inline; }
+ion-icon {
+  pointer-events: none;
+}
+
 
 button {
   font: inherit;
