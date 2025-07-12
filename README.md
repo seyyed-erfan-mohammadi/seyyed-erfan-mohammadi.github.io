@@ -25,3 +25,9 @@ I'm a Biomedical Engineering graduate (Bioelectric) with a strong background in 
 ---
 
 Feel free to explore my work and reach out!
+
+<!-- Add this in the <head> of your index.html -->
+<meta name="description" content="Seyyed Erfan Mohammadi | Biomedical Engineer | MEG Researcher">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Seyyed Erfan Mohammadi, MEG, EEG, biomedical engineering, github, ERP, neuroscience, matlab, python">
+
